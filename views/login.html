@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="satylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#"> Bootstrap</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="log-in.html">Log-in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://jva.schools.smcdsb.on.ca/"
+              >My School</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://mrdoob.com/projects/chromeexperiments/google-space/"
+              >To Google</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Hi there!</h1>
+
+    <p id="one">
+      What is your favourite droid?
+    </p>
+    <img
+      id="myImage"
+      src="https://hottopic.scene7.com/is/image/HotTopic/10661496_hi?$pdp_hero_standard$"
+      style="width:100px"
+    />
+
+    <button
+      onclick="document.getElementById('myImage').src='https://vignette.wikia.nocookie.net/starwars/images/9/9d/Droideka-SWE.png/revision/latest?cb=20160910210418'"
+    >
+      Droideka
+    </button>
+    <button
+      onclick="document.getElementById('myImage').src='https://images-na.ssl-images-amazon.com/images/I/71LFpKcZjGL._SY879_.jpg'"
+    >
+      C3PO
+    </button>
+    <button
+      onclick="document.getElementById('myImage').src='https://images-na.ssl-images-amazon.com/images/I/91BLCCISDTL._SY355_.jpg'"
+    >
+      R2D2
+    </button>
+    <button
+      onclick="document.getElementById('myImage').src='https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/6101047622218'"
+    >
+      BB8
+    </button>
+
+    <p id="two">
+      Answer the following text to figure out what kind of animal you are!
+    </p>
+
+    <p id="q">
+      What is your favorite colour out of the following:
+    </p>
+
+    <button
+      type="button"
+      onclick='document.getElementById("aa").innerHTML = "turtle shell"'
+    >
+      Green
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("aa").innerHTML = "lion mane"'
+    >
+      Brown
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("aa").innerHTML = "shark skin"'
+    >
+      Blue
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("aa").innerHTML = "fox fur"'
+    >
+      Orange
+    </button>
+
+    <p id="q">
+      How smart are you?
+    </p>
+
+    <button
+      type="button"
+      onclick='document.getElementById("ab").innerHTML = "dolphin"'
+    >
+      Very
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("ab").innerHTML = "dog"'
+    >
+      somewhat
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("ab").innerHTML = "panda bear"'
+    >
+      kind of
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("ab").innerHTML = "turkey"'
+    >
+      not at all
+    </button>
+
+    <p id="q">
+      What are you passionate about?
+    </p>
+
+    <button
+      type="button"
+      onclick='document.getElementById("ac").innerHTML = "chimpanze"'
+    >
+      Books
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("ac").innerHTML = "cheetah"'
+    >
+      Sports
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("ac").innerHTML = "Owl"'
+    >
+      Coding
+    </button>
+    <button
+      type="button"
+      onclick='document.getElementById("ac").innerHTML = "potato"'
+    >
+      Videogames
+    </button>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <p class="a">
+            You have (a)
+          </p>
+
+          <p id="aa">
+            _______
+          </p>
+        </div>
+
+        <div class="col-4">
+          <p class="a">
+            with the brain of a
+          </p>
+
+          <p id="ab">
+            _______
+          </p>
+        </div>
+
+        <div class="col-4">
+          <p class="a">
+            and the body of a
+          </p>
+
+          <p id="ac">
+            _______
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
