@@ -40,3 +40,9 @@ dreamsForm.onsubmit = function(event) {
   dreamInput.value = "";
   dreamInput.focus();
 };
+function alert1() {
+  alert("This is an alert, don't be alerted!");
+}
+
+
+
