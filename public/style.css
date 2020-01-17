@@ -1,0 +1,131 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-style: italic;
+  color: darkred;
+}
+
+#one {
+  color: limegreen;
+  font-size: 22px;
+  margin: 0px;
+  padding: 0px;
+}
+#two {
+  color: limegreen;
+  font-size: 22px;
+  font-style: bold;
+  margin: 0px;
+  padding: 0px;
+}
+#q {
+  color: Darkred;
+  font-size: 28px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.a {
+  font-style: italic;
+  color: orange;
+  font-size: 28px;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  width: 105%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fcccfc;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #50C5B7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4DBAAD;
+  opacity: 1;
+}
+
+.insta {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+

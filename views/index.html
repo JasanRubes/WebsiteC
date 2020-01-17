@@ -1,0 +1,297 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+<!--
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+<!--
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+<!--
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        A Dream of the Future
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Oh hi,</p>
+      
+      <p>Tell me your hopes and dreams:</p>
+      
+      <form>
+        <input name="dream" type="text" maxlength="100" placeholder="Dreams!" aria-labelledby="submit-dream">
+        <button type="submit" id="submit-dream">Submit Dream</button>
+      </form>
+      
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+    </main>
+
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+<!--
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <a class="navbar-brand" href="#"> Bootstrap</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Log-in</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://jva.schools.smcdsb.on.ca/"
+              >My School</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://mrdoob.com/projects/chromeexperiments/google-space/"
+              >To Google</a
+            >
+            <li class="nav-item">
+            <a class="nav-link" href="extras.html">Extras</a>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <container> </container>
+
+    <div class="container" style="background-color:lightgreen;">
+      <div class="container">
+        <div class="col-xl-12">
+          <h1>
+            This is my attempt at a bootstrap website, please enjoy
+          </h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6" style="background-color:yellow;">
+            Please fill in some information if you would like to:
+            <form action="/sign-in-url" method="post">
+              <label>
+                Username: <input type="text"= required placeholder =
+                "coolguy88"></label
+              >
+              <label> Password: <input type="password"= required></label>
+              <label> Date of birth: <input type="date"= required></label>
+              <label> Profile Theme: <input type="color"= required></label>
+              <label> Profile Picture: <input type="file"/></label>
+              <label>
+                Agree to the terms of service: <input type="checkbox"=
+                required></label
+              >
+              <button>
+                Login
+              </button>
+            </form>
+          </div>
+          <div class="col-sm-6" style="background-color:lightblue;">
+            Over here you can find a image carousel:
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    class="d-block w-100"
+                    src="https://cdn.britannica.com/55/174255-050-526314B6/brown-Guernsey-cow.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="https://animalcorner.co.uk/wp-content/uploads/2015/02/chicken2-1.jpg"
+                    alt="Second slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="d-block w-100"
+                    src="https://i.ytimg.com/vi/LBNctIlzE1I/maxresdefault.jpg"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="column">
+            <div class="row-sm-4">
+              The following is a biography about Jasan Rubes
+            </div>
+            <div class="row-sm-4" style="background-color:yellow;">
+              I like to think I am a very well rounded student. In the past I
+              have excelled in school and achieved very high marks throughout
+              all my years of elementary school and highschool. While trying my
+              hardest in school I have tried to be as involved with sport as
+              much as possible. I have played: Golf , Tennis, Badminton ,
+              Pickleball, Swimming, Soccer, Hockey, Skiing, A little bit of
+              volleyball, One year of tee ball
+            </div>
+            <div class="row-sm-4" style="background-color:lightblue;">
+              Growing up if I was not at school I was either getting ready for
+              or at a sports event and this took up most of my time. As I got
+              older I stopped enjoying some sports and quit some teams. However
+              when I arrived at highschool I gave myself a goal to be as
+              involved as possible. I joined every club I had heard of and
+              though I liked some more than others, I still continued to join
+              the following year.
+            </div>
+            <div class="row-sm-4" style="background-color:yellow;">
+              Outside of sports I have other hobbies, some were more of a faze
+              but some have become part of my everyday life. Things like archery
+              and airsoft are still fun to do every once and awhile. I play
+              video games much too often but it is a way I can connect with
+              friends who live far away.
+            </div>
+            <div class="row-sm-4" style="background-color:lightblue;">
+              I have strengths and weaknesses just like anyone else. I am a
+              leader who is not scared to take control and lead a group. I have
+              shown this with my involvement in link crew and student
+              leadership. However, I have had a history of becoming a little
+              bossy when a group of my peers are not functioning like a well
+              oiled machine. I do have good work habits and my parents are not
+              afraid to push me to get my work done.
+            </div>
+            <div class="row-sm-4" style="background-color:yellow;">
+              My name is Jasan Rubes and I will try to be the best student
+              possible this year so I not only learn but can exceed expectations
+              and go above and beyond.
+            </div>
+            <div class="row-sm-4" style="background-color:lightblue;">
+              Experience with coding:
+            </div>
+            <div class="row-sm-4" style="background-color:yellow;">
+              Over my years growing up I always had an interest in computers and
+              programming but only during the summer of grade 7 did I really get
+              into it. That summer I went to a camp run by an organization
+              called Hatch canada where I learned to code in a version of Java.
+              I went back the following year. After my second camp I had one of
+              the highest scores of any student to attend hatch but that was not
+              completely true as I sort of found a loophole. Anyway, I made some
+              cool games all by myself and I am willing to show them off I
+              anyone would like to see them.
+            </div>
+            <div class="row-sm-4" style="background-color:lightblue;">
+              The next year I did a two week camp at Ryerson University, this
+              camp was more robotics and 3d design focused rather than coding
+              but we still did some arduino.
+            </div>
+            <div class="row-sm-4" style="background-color:yellow;">
+              That would not have been my first run in with arduino as Mr.
+              Koeman ran a small club that did not survive past grade nine but
+              it was still a good learning experience as I learned about things
+              such as bread boards.
+            </div>
+            <div class="row-sm-4" style="background-color:lightblue;">
+              The summer of grade ten I went back to hatch to learn python. As
+              much as I did learn I was hoping to learn more than I did. I did
+              leave the camp with two projects that are fully functional other
+              than a few minor bugs. I would also be willing to show these off
+              to anyone interested.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <img
+          src="https://s3.amazonaws.com/spectrumnews-web-assets/wp-content/uploads/2018/11/13154625/20181112-SHANK3monkey-844.jpg"
+          alt="Monkey"
+        />
+      </div>
+      <div class="col-6">
+        <img
+          src="https://i.pinimg.com/originals/bf/45/21/bf4521a45d49d36cf590507daf780327.jpg"
+          alt="Monkey"
+        />
+      </div>
+    </div>
+  </body>
+</html>
